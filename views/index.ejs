@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Todo list</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <style>
+            ul{list-style-type: none;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="display-4">My Todo list:</h1>
+            <ul>
+                <% tasks.forEach((task, index) => { %>
+                <li class="py-2">
+                    <a href="<%= uri %>/delete/<%= index %>" class="btn btn-danger mr-2">
+                        <i data-feather="x-circle"></i>
+                    </a>
+                    <%= task %>
+                </li>
+                <% }); %>
+            </ul>
+            <form class="form-inline" action="<%= uri %>/create" method="POST">
+                <input id="task" type="text" name="task" class="form-control mr-2" placeholder="What should I do ?" required autofocus>
+                <button type="submit" class="btn btn-success"> 
+                    <i data-feather="plus-circle" class="mr-1"></i>
+                    Add a task 
+                </button>
+            </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script>
+            feather.replace()
+        </script>
+    </body>
+</html>
