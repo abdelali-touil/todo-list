@@ -1,8 +1,8 @@
 {
-  "name": "todolist_nodejs",
+  "name": "todolist-nodejs",
   "version": "1.0.0",
-  "description": "Setup Node.js basic todo list project on docker",
-  "author": "Abdelali Touil <touil.abdelali@gmail.com>",
+  "description": "Set up Node.js basic application on docker",
+  "author": "Ali <touil.abdelali@gmail.com>",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
