@@ -3,18 +3,18 @@
 const express = require('express'),
       PORT = 8080,
       HOST = '0.0.0.0',
-      URI = '/todolist'
+      URI = '/todo-list'
 
 let session = require('cookie-session'),
     bodyParser = require('body-parser'),
     urlencodedParser = bodyParser.urlencoded({ extended: false }),
     app = express()
 
-/* use of sessions */
+/* use the sessions */
 app.use(session({secret: 'secret-key'}))
 
 /* if there is no todo list in the session,
-we create an empty todo list as an array before the continuation */
+create an empty todo list as an array of tasks */
 .use((request, response, next) => {
   if (typeof(request.session.tasks) == 'undefined') {
       request.session.tasks = []
@@ -22,7 +22,7 @@ we create an empty todo list as an array before the continuation */
   next()
 })
 
-/* display todo list and form */
+/* display tasks and form */
 .get(URI, (request, response) => { 
   response.render('index.ejs', {tasks: request.session.tasks, uri: URI})
 })
@@ -43,7 +43,7 @@ we create an empty todo list as an array before the continuation */
   response.redirect(URI)
 })
 
-/* redirect to the todo list if the requested page is not found (Error 404) */
+/* redirect to the homepage if the requested page is not found (Error 404) */
 .use((request, response, next) => {
   response.redirect(URI)
 })
