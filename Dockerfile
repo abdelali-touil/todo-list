@@ -19,6 +19,6 @@ COPY . .
 # expose the port used by the application
 EXPOSE 8080
 
-# execute our application
+# execute the application
 CMD [ "node", "index.js" ]
 
