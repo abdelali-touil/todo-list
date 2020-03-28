@@ -1,4 +1,4 @@
-# Node.js Todo list application
+# Basic Node.js Todo list application
 This is a basic todo list application implemented with node js. If you have any question or suggestion, mail me (touil.abdelali@gmail.com).
 
 It integrated the following libraries and middlewares:
