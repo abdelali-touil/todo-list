@@ -7,6 +7,26 @@ It integrated the following libraries and middlewares:
 - EJS: Embedded JavaScript templates.
 - Express: Fast, unopinionated, minimalist web framework.
 
+### Requirements
+- Docker
+
+### Getting Started
+Go to the directory and run the following command to build the Docker image:
+
+```
+$ docker build -t <username>/todo-list .
+```
+
+Running the image:
+
+```
+$ docker run -p 49160:8080 -d <username>/todo-list
+```
+
+Now you can call the application using browser:
+
+> http://<host ip>:49160/
+
 ### Status
 - Developing
 
