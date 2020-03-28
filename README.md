@@ -6,7 +6,6 @@ It integrated the following libraries and middlewares:
 - Cookie-session: Simple cookie-based session middleware.
 - EJS: Embedded JavaScript templates.
 - Express: Fast, unopinionated, minimalist web framework.
-- Mocha: Simple, flexible JavaScript test framework.
 
 ### Status
 - Developing
