@@ -1,5 +1,5 @@
 # Basic Node.js Todo list application
-This is a basic todo list application implemented with node js. If you have any question or suggestion, mail me (touil.abdelali@gmail.com).
+This is a basic todo list application implemented with node js. If you have any question or suggestion, mail me (docali125@gmail.com).
 
 It integrated the following libraries and middlewares:
 - Body-parser: Node.js body parsing middleware.
@@ -31,7 +31,7 @@ Now you can call the application using browser:
 - Developing
 
 ### Contribution
-- A. Touil (touil.abdelali@gmail.com)
+- Ali T. (docali125@gmail.com)
 
 ### License
-MIT license. Copyright (c) 2020, A. Touil
+MIT license. Copyright (c) 2020, Ali T.
