@@ -25,7 +25,7 @@ $ docker run -p 49160:8080 -d <username>/todo-list
 
 Now you can call the application using browser:
 
-> http://your-host-ip:49160/
+> http://localhost:49160/
 
 ### Status
 - Developing
