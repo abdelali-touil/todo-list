@@ -8,9 +8,8 @@ It integrated the following frameworks and middlewares:
 - Express: Fast, unopinionated, minimalist web framework.
 
 ### Prerequisites
-To execute this application, you will need:
-- Node.js
-- or Docker
+To follow these instructions, you will need:
+- Docker
 
 ### Getting Started
 Go to the directory and run the following command to build the Docker image:
