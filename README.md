@@ -9,7 +9,8 @@ It integrated the following frameworks and middlewares:
 
 ### Prerequisites
 To execute this application, you will need:
-- Docker
+- Node.js
+- or Docker
 
 ### Getting Started
 Go to the directory and run the following command to build the Docker image:
