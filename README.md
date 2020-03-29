@@ -1,7 +1,7 @@
 # Basic Node.js Todo list application
 This is a basic todo list application implemented with node js. If you have any question or suggestion, mail me (docali125@gmail.com).
 
-It integrated the following libraries and middlewares:
+It integrated the following frameworks and middlewares:
 - Body-parser: Node.js body parsing middleware.
 - Cookie-session: Simple cookie-based session middleware.
 - EJS: Embedded JavaScript templates.
