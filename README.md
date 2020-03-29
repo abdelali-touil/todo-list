@@ -23,9 +23,9 @@ Run the docker image:
 docker run -p 49160:8080 -d <username>/todo-list
 ```
 ### Usage
-Now you can call the application using browser:
+Now you can call the application using the following url:
 
-> http://'<your-ip>':49160/
+> Go to http://localhost:49160/ in a browser
 
 ### Status
 - Developing
