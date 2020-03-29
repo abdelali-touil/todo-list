@@ -2,7 +2,7 @@
   "name": "todolist-nodejs",
   "version": "1.0.0",
   "description": "Set up Node.js basic application on docker",
-  "author": "Ali <touil.abdelali@gmail.com>",
+  "author": "Ali T. <docali125@gmail.com>",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
