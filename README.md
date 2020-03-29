@@ -9,7 +9,7 @@ It integrated the following frameworks and middlewares:
 
 ### Prerequisites
 To follow these instructions, you will need:
-- Docker
+- Docker installed
 
 ### Getting Started
 Go to the directory and run the following command to build the Docker image:
