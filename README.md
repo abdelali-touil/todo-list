@@ -1,4 +1,7 @@
 # Basic Node.js Todo list application
+
+https://img.shields.io/static/v1?label=Node.js&message=Node&color=green
+
 This is a basic todo list application implemented with node js. If you have any question or suggestion, mail me (docali125@gmail.com).
 
 It integrated the following libraries and middlewares:
@@ -14,19 +17,13 @@ It integrated the following libraries and middlewares:
 Go to the directory and run the following command to build the Docker image:
 
 ```bash
-$ docker build -t <username>/todo-list .
-```
-
-
-```phyton
-import foobar
-foobar.pluralize('word') # returns 'words'
+docker build -t <username>/todo-list .
 ```
 
 Run the docker image:
 
-```
-$ docker run -p 49160:8080 -d <username>/todo-list
+```bash
+docker run -p 49160:8080 -d <username>/todo-list
 ```
 
 Now you can call the application using browser:
