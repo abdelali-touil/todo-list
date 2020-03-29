@@ -13,7 +13,7 @@ It integrated the following libraries and middlewares:
 ### Getting Started
 Go to the directory and run the following command to build the Docker image:
 
-```
+```linux
 $ docker build -t <username>/todo-list .
 ```
 
