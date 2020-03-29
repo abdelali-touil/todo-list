@@ -7,7 +7,8 @@ It integrated the following frameworks and middlewares:
 - EJS: Embedded JavaScript templates.
 - Express: Fast, unopinionated, minimalist web framework.
 
-### Requirements
+### Prerequisites
+To execute this application, you will need:
 - Docker
 
 ### Getting Started
