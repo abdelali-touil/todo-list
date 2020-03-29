@@ -1,6 +1,6 @@
 # Basic Node.js Todo list application
 
-https://img.shields.io/badge/Node.js-Node-green
+<img src="https://img.shields.io/badge/Node.js-Node-green">
 
 This is a basic todo list application implemented with node js. If you have any question or suggestion, mail me (docali125@gmail.com).
 
