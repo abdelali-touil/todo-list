@@ -25,7 +25,7 @@ docker run -p 49160:8080 -d <username>/todo-list
 ### Usage
 Now you can call the application using the following url:
 
-> Go to http://localhost:49160/ in a browser
+> Copy http://localhost:49160/ into a browser
 
 ### Status
 - Developing
