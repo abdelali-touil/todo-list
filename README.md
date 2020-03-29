@@ -13,8 +13,14 @@ It integrated the following libraries and middlewares:
 ### Getting Started
 Go to the directory and run the following command to build the Docker image:
 
-```linux
+```bash
 $ docker build -t <username>/todo-list .
+```
+
+
+```phyton
+import foobar
+foobar.pluralize('word') # returns 'words'
 ```
 
 Run the docker image:
