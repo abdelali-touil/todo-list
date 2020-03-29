@@ -7,6 +7,8 @@ It integrated the following frameworks and middlewares:
 - EJS: Embedded JavaScript templates.
 - Express: Fast, unopinionated, minimalist web framework.
 
+![Screenshot from 2020-03-29 11-49-02](https://user-images.githubusercontent.com/11296140/77847337-54dc5800-71b4-11ea-896e-74d824ed651e.png)
+
 ### Requirements
 - Docker
 
