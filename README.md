@@ -30,8 +30,9 @@ Now you can call the application using the following url:
 ### Status
 - Developing
 
-### Contribution
+### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 - Ali T. (docali125@gmail.com)
 
 ### License
-MIT license. Copyright (c) 2020, Ali T.
+[MIT](https://choosealicense.com/licenses/mit/) license. Copyright (c) 2020, Ali T.
