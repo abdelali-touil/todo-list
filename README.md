@@ -33,7 +33,6 @@ Now you can call the application using the following url:
 
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-- Me (touil.abdelali@outlook.com)
 
 ### License
 [MIT](https://choosealicense.com/licenses/mit/) license. Copyright (c) 2020, Ali T.
